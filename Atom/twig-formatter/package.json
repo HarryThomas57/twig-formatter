@@ -1,0 +1,18 @@
+{
+  "name": "twig-formatter",
+  "main": "./lib/twig-formatter",
+  "version": "0.0.0",
+  "description": "Code Formatter for Twig language",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace":[ "twig-formatter:oneLine",  "twig-formatter:beautify", "twig-formatter:whitespace" ]
+  },
+  "repository": "https://github.com/potatoes57/twig-formatter",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

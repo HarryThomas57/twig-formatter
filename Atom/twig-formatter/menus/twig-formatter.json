@@ -1,0 +1,38 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "One Line",
+        "command": "twig-formatter:oneLine"
+      }, {
+        "label": "Beautify",
+        "command": "twig-formatter:beautify"
+      }, {
+        "label": "Whitespace Control",
+        "command": "twig-formatter:whitespace"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Twig Formatter",
+          "submenu": [
+            {
+              "label": "One Line",
+              "command": "twig-formatter:oneLine"
+            },  {
+              "label": "Beautify",
+              "command": "twig-formatter:beautify"
+            }, {
+              "label": "Whitespace Control",
+              "command": "twig-formatter:whitespace"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

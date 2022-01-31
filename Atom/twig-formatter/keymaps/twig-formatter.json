@@ -1,0 +1,7 @@
+{
+  "atom-workspace": {
+    "cmd-shift-o": "twig-formatter:oneLine",
+    "cmd-shift-i": "twig-formatter:beautify",
+    "cmd-shift-k": "twig-formatter:whitespace"
+  }
+}
